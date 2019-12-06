@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="SetupClass.TestRun" time="1,014.857" tests="106" errors="4" skipped="7" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="SetupClass.TestRun" time="1,164.103" tests="106" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_211\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\slide53\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1035405679769601011.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\slide53\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5653532784504964252.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32;C:\Windows;C:\Program Files\Java\jdk-12.0.1\bin;C:\Program Files\Git\cmd;C:\maven\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;C:\Program Files\Java\jdk1.8.0_211\bin;;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Users\slide53\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\Users\slide53\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,7 +61,7 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase name="Given user is already on PDP Page FP i" classname="Scenario: Email Sign UP Incorrect Data" time="0.005"/>
-  <testcase name="Then User click on Download button to download the product i" classname="Scenario: Email Sign UP Incorrect Data" time="0"/>
+  <testcase name="Then User click on Download button to download the product i" classname="Scenario: Email Sign UP Incorrect Data" time="0.001"/>
   <testcase name="Then user is redirected to sign up page i" classname="Scenario: Email Sign UP Incorrect Data" time="0"/>
   <testcase name="Then user enter incorrect details to sign up i" classname="Scenario: Email Sign UP Incorrect Data" time="0"/>
   <testcase name="Then error message is displayed i" classname="Scenario: Email Sign UP Incorrect Data" time="0"/>
@@ -77,45 +77,16 @@
   <testcase name="Then user is redirected to pricing page And then user navigates to free ppt page ii" classname="Scenario: PDP Email Sign UP Correct Data" time="0"/>
   <testcase name="Then user downloads a free product ii" classname="Scenario: PDP Email Sign UP Correct Data" time="0"/>
   <testcase name="Then user delete the account ii" classname="Scenario: PDP Email Sign UP Correct Data" time="0"/>
-  <testcase name="Scenario: PDP Email Sign UP Correct Data" classname="Scenario: PDP Email Sign UP Correct Data" time="0"/>
+  <testcase name="Scenario: PDP Email Sign UP Correct Data" classname="Scenario: PDP Email Sign UP Correct Data" time="0.001"/>
   <testcase name="Given user is already on pdp page iii" classname="Scenario: PDP Facebook Sign UP" time="0"/>
   <testcase name="Then User click on Download button to download the product iii" classname="Scenario: PDP Facebook Sign UP" time="0"/>
   <testcase name="Then user is redirected to sign up page iii" classname="Scenario: PDP Facebook Sign UP" time="0"/>
-  <testcase name="Then User click on sign in with facebook button iii" classname="Scenario: PDP Facebook Sign UP" time="0.027">
-    <error message="Expected condition failed: waiting for element to be clickable: By.id: loginbutton (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: loginbutton (tried for 30 second(s) with 500 milliseconds interval)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.id: loginbutton
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'SLIDE54', ip: '192.168.100.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: driver.version: unknown
-</error>
-    <system-err><![CDATA[Dec 05, 2019 2:12:56 PM SetupClass.TestStep.pdp_Facebook_Sign_UP_3 user_click_on_sign_in_with_facebook_button_iii
-INFO: It's opening the website URL
-]]></system-err>
-  </testcase>
-  <testcase name="Scenario: PDP Facebook Sign UP" classname="Scenario: PDP Facebook Sign UP" time="0.027">
-    <error message="Expected condition failed: waiting for element to be clickable: By.id: loginbutton (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: loginbutton (tried for 30 second(s) with 500 milliseconds interval)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.id: loginbutton
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'SLIDE54', ip: '192.168.100.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: driver.version: unknown
-</error>
-  </testcase>
-  <testcase name="Then user is redirected to pricing page iii" classname="Scenario: PDP Facebook Sign UP" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="Then user go to free ppts page  iii" classname="Scenario: PDP Facebook Sign UP" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="Then user download a free ppt  iii" classname="Scenario: PDP Facebook Sign UP" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="Then user delete the account iii" classname="Scenario: PDP Facebook Sign UP" time="0">
-    <skipped/>
-  </testcase>
+  <testcase name="Then User click on sign in with facebook button iii" classname="Scenario: PDP Facebook Sign UP" time="0"/>
+  <testcase name="Then user is redirected to pricing page iii" classname="Scenario: PDP Facebook Sign UP" time="0"/>
+  <testcase name="Then user go to free ppts page  iii" classname="Scenario: PDP Facebook Sign UP" time="0"/>
+  <testcase name="Then user download a free ppt  iii" classname="Scenario: PDP Facebook Sign UP" time="0"/>
+  <testcase name="Then user delete the account iii" classname="Scenario: PDP Facebook Sign UP" time="0"/>
+  <testcase name="Scenario: PDP Facebook Sign UP" classname="Scenario: PDP Facebook Sign UP" time="0"/>
   <testcase name="Given user is already on pdp page v" classname="Scenario: PDP Gmail Sign UP" time="0"/>
   <testcase name="Then User click on Download button to download the product v" classname="Scenario: PDP Gmail Sign UP" time="0"/>
   <testcase name="Then user is redirected to sign up page v" classname="Scenario: PDP Gmail Sign UP" time="0"/>
@@ -138,56 +109,32 @@ Driver info: driver.version: unknown
   <testcase name="Given user is already on PDP Page MD viii" classname="Scenario: PDP Email Login Correct Data Paid User" time="0"/>
   <testcase name="Then User click on Download button to download the product viii" classname="Scenario: PDP Email Login Correct Data Paid User" time="0"/>
   <testcase name="Then user is redirected to Login page viii" classname="Scenario: PDP Email Login Correct Data Paid User" time="0"/>
-  <testcase name="Then user login with correct details viii" classname="Scenario: PDP Email Login Correct Data Paid User" time="0.001"/>
+  <testcase name="Then user login with correct details viii" classname="Scenario: PDP Email Login Correct Data Paid User" time="0"/>
   <testcase name="Then user will be redirected to same pdp page viii" classname="Scenario: PDP Email Login Correct Data Paid User" time="0"/>
   <testcase name="Then user download the product viii" classname="Scenario: PDP Email Login Correct Data Paid User" time="0"/>
   <testcase name="Then user logout from website viii" classname="Scenario: PDP Email Login Correct Data Paid User" time="0"/>
   <testcase name="Scenario: PDP Email Login Correct Data Paid User" classname="Scenario: PDP Email Login Correct Data Paid User" time="0"/>
-  <testcase name="Given user is already on pdp page CD ix" classname="Scenario: PDP Facebook Login Paid User" time="0.007"/>
+  <testcase name="Given user is already on pdp page CD ix" classname="Scenario: PDP Facebook Login Paid User" time="0"/>
   <testcase name="Then User click on Download button to download the product ix" classname="Scenario: PDP Facebook Login Paid User" time="0"/>
   <testcase name="Then user is redirected to Login page ix" classname="Scenario: PDP Facebook Login Paid User" time="0"/>
   <testcase name="Then User click on sign in with facebook button ix" classname="Scenario: PDP Facebook Login Paid User" time="0"/>
   <testcase name="Then user will be redirected to same page pdpd ix" classname="Scenario: PDP Facebook Login Paid User" time="0"/>
   <testcase name="Then user download the product ix" classname="Scenario: PDP Facebook Login Paid User" time="0"/>
   <testcase name="Then user logout from website ix" classname="Scenario: PDP Facebook Login Paid User" time="0"/>
-  <testcase name="Scenario: PDP Facebook Login Paid User" classname="Scenario: PDP Facebook Login Paid User" time="0.001"/>
+  <testcase name="Scenario: PDP Facebook Login Paid User" classname="Scenario: PDP Facebook Login Paid User" time="0"/>
   <testcase name="Given navigate to the facebook url x" classname="Scenario: Facebook Logout" time="0"/>
   <testcase name="Scenario: Facebook Logout" classname="Scenario: Facebook Logout" time="0"/>
   <testcase name="Given user is already on pdp page CD xi" classname="Scenario: PDP Gmail Login Paid User" time="0"/>
   <testcase name="Then User click on Download button to download the product xi" classname="Scenario: PDP Gmail Login Paid User" time="0"/>
   <testcase name="Then user is redirected to Login page xi" classname="Scenario: PDP Gmail Login Paid User" time="0"/>
-  <testcase name="Then User click on sign in with google button xi" classname="Scenario: PDP Gmail Login Paid User" time="0.001">
-    <error message="Expected condition failed: waiting for element to be clickable: By.id: identifierId (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: identifierId (tried for 30 second(s) with 500 milliseconds interval)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.id: identifierId
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'SLIDE54', ip: '192.168.100.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: driver.version: unknown
-</error>
-  </testcase>
-  <testcase name="Scenario: PDP Gmail Login Paid User" classname="Scenario: PDP Gmail Login Paid User" time="0.001">
-    <error message="Expected condition failed: waiting for element to be clickable: By.id: identifierId (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: identifierId (tried for 30 second(s) with 500 milliseconds interval)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.id: identifierId
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'SLIDE54', ip: '192.168.100.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: driver.version: unknown
-</error>
-  </testcase>
-  <testcase name="Then user will be redirected to same page pdpd xi" classname="Scenario: PDP Gmail Login Paid User" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="Then user download the product xi" classname="Scenario: PDP Gmail Login Paid User" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="Then user logout from website xi" classname="Scenario: PDP Gmail Login Paid User" time="0">
-    <skipped/>
-  </testcase>
+  <testcase name="Then User click on sign in with google button xi" classname="Scenario: PDP Gmail Login Paid User" time="0"/>
+  <testcase name="Then user will be redirected to same page pdpd xi" classname="Scenario: PDP Gmail Login Paid User" time="0"/>
+  <testcase name="Then user download the product xi" classname="Scenario: PDP Gmail Login Paid User" time="0"/>
+  <testcase name="Then user logout from website xi" classname="Scenario: PDP Gmail Login Paid User" time="0"/>
+  <testcase name="Scenario: PDP Gmail Login Paid User" classname="Scenario: PDP Gmail Login Paid User" time="0"/>
   <testcase name="Given navigate to the gmail url xii" classname="Scenario: Gmail Logout" time="0"/>
   <testcase name="Scenario: Gmail Logout" classname="Scenario: Gmail Logout" time="0"/>
-  <testcase name="Given user is already on PDP Page NA xiii" classname="Scenario: PDP Email Login Incorrect Data Free User" time="0.001"/>
+  <testcase name="Given user is already on PDP Page NA xiii" classname="Scenario: PDP Email Login Incorrect Data Free User" time="0"/>
   <testcase name="Then User click on Download button to download the product xiii" classname="Scenario: PDP Email Login Incorrect Data Free User" time="0"/>
   <testcase name="Then user is redirected to Login page xiii" classname="Scenario: PDP Email Login Incorrect Data Free User" time="0"/>
   <testcase name="Then user enter incorrect details to login xiii" classname="Scenario: PDP Email Login Incorrect Data Free User" time="0"/>
@@ -195,7 +142,7 @@ Driver info: driver.version: unknown
   <testcase name="Then user login with correct details xiii" classname="Scenario: PDP Email Login Incorrect Data Free User" time="0"/>
   <testcase name="Then user is reedirected to pricing page xiii" classname="Scenario: PDP Email Login Incorrect Data Free User" time="0"/>
   <testcase name="Then user logout from website xiii" classname="Scenario: PDP Email Login Incorrect Data Free User" time="0"/>
-  <testcase name="Scenario: PDP Email Login Incorrect Data Free User" classname="Scenario: PDP Email Login Incorrect Data Free User" time="0.001"/>
+  <testcase name="Scenario: PDP Email Login Incorrect Data Free User" classname="Scenario: PDP Email Login Incorrect Data Free User" time="0.002"/>
   <testcase name="Given user is already on PDP Page MD xiv" classname="Scenario: PDP Email Login Correct Data Free User" time="0"/>
   <testcase name="Then User click on Download button to download the product xiv" classname="Scenario: PDP Email Login Correct Data Free User" time="0"/>
   <testcase name="Then user is redirected to Login page xiv" classname="Scenario: PDP Email Login Correct Data Free User" time="0"/>

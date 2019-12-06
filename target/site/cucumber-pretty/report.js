@@ -69,63 +69,63 @@ formatter.match({
   "location": "pdp_Email_Sign_UP_Incorrect_Data_1.user_is_already_on_PDP_Page_FP_i()"
 });
 formatter.result({
-  "duration": 5210123300,
+  "duration": 4082616900,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Sign_UP_Incorrect_Data_1.user_click_on_Download_button_to_download_the_product_i()"
 });
 formatter.result({
-  "duration": 4266450800,
+  "duration": 4467870600,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Sign_UP_Incorrect_Data_1.user_is_redirected_to_sign_up_page_i()"
 });
 formatter.result({
-  "duration": 8354372500,
+  "duration": 6917159500,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Sign_UP_Incorrect_Data_1.user_enter_incorrect_details_to_sign_up_i()"
 });
 formatter.result({
-  "duration": 28881456699,
+  "duration": 28840076300,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Sign_UP_Incorrect_Data_1.error_message_is_displayed_i()"
 });
 formatter.result({
-  "duration": 22383900500,
+  "duration": 23755305800,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Sign_UP_Incorrect_Data_1.user_enter_new_email_and_correct_details_to_sign_up_i()"
 });
 formatter.result({
-  "duration": 32149995400,
+  "duration": 32088428700,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Sign_UP_Incorrect_Data_1.user_is_redirected_to_pricing_page_And_then_user_navigates_to_free_ppt_page_i()"
 });
 formatter.result({
-  "duration": 5799561500,
+  "duration": 5953841400,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Sign_UP_Incorrect_Data_1.user_downloads_a_free_product_i()"
 });
 formatter.result({
-  "duration": 12766654401,
+  "duration": 10608459300,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Sign_UP_Incorrect_Data_1.user_delete_the_account_i()"
 });
 formatter.result({
-  "duration": 22603706500,
+  "duration": 22580883800,
   "status": "passed"
 });
 formatter.uri("src/test/java/Features/b1.1_PDP_Email_Sign_UP_Correct_Data_2.feature");
@@ -189,49 +189,49 @@ formatter.match({
   "location": "pdp_Email_Sign_UP_Correct_Data_2.user_is_already_on_PDP_Page_FP_ii()"
 });
 formatter.result({
-  "duration": 2791526900,
+  "duration": 2824898800,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Sign_UP_Correct_Data_2.user_click_on_Download_button_to_download_the_product_ii()"
 });
 formatter.result({
-  "duration": 4152505300,
+  "duration": 4444664800,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Sign_UP_Correct_Data_2.user_is_redirected_to_sign_up_page_ii()"
 });
 formatter.result({
-  "duration": 6624651800,
+  "duration": 5807409900,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Sign_UP_Correct_Data_2.user_enter_new_email_and_correct_details_to_sign_up_ii()"
 });
 formatter.result({
-  "duration": 32110410700,
+  "duration": 31887737600,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Sign_UP_Correct_Data_2.user_is_redirected_to_pricing_page_And_then_user_navigates_to_free_ppt_page_ii()"
 });
 formatter.result({
-  "duration": 5700209000,
+  "duration": 5929206100,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Sign_UP_Correct_Data_2.user_downloads_a_free_product_ii()"
 });
 formatter.result({
-  "duration": 10559587700,
+  "duration": 10761633000,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Sign_UP_Correct_Data_2.user_delete_the_account_ii()"
 });
 formatter.result({
-  "duration": 23201612300,
+  "duration": 22572341900,
   "status": "passed"
 });
 formatter.uri("src/test/java/Features/c2.1_PDP_Facebook_Sign_UP_3.feature");
@@ -300,54 +300,57 @@ formatter.match({
   "location": "pdp_Facebook_Sign_UP_3.user_is_already_on_pdp_page_iii()"
 });
 formatter.result({
-  "duration": 2623087899,
+  "duration": 2823092400,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Facebook_Sign_UP_3.user_click_on_Download_button_to_download_the_product_iii()"
 });
 formatter.result({
-  "duration": 4209590800,
+  "duration": 4341384800,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Facebook_Sign_UP_3.user_is_redirected_to_sign_up_page_iii()"
 });
 formatter.result({
-  "duration": 2999766001,
+  "duration": 3001319400,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Facebook_Sign_UP_3.user_click_on_sign_in_with_facebook_button_iii()"
 });
 formatter.result({
-  "duration": 42954958800,
-  "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: loginbutton (tried for 30 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)\r\n\tat SetupClass.TestStep.pdp_Facebook_Sign_UP_3.user_click_on_sign_in_with_facebook_button_iii(pdp_Facebook_Sign_UP_3.java:57)\r\n\tat ✽.Then User click on sign in with facebook button iii(src/test/java/Features/c2.1_PDP_Facebook_Sign_UP_3.feature:8)\r\nCaused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: loginbutton\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027SLIDE54\u0027, ip: \u0027192.168.100.161\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_211\u0027\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)\r\n\tat java.util.Optional.orElseThrow(Unknown Source)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)\r\n\tat SetupClass.TestStep.pdp_Facebook_Sign_UP_3.user_click_on_sign_in_with_facebook_button_iii(pdp_Facebook_Sign_UP_3.java:57)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)\r\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\r\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:300)\r\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\r\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)\r\n",
-  "status": "failed"
+  "duration": 26087202300,
+  "status": "passed"
 });
 formatter.match({
   "location": "pdp_Facebook_Sign_UP_3.user_is_redirected_to_pricing_page_iii()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 999829300,
+  "status": "passed"
 });
 formatter.match({
   "location": "pdp_Facebook_Sign_UP_3.user_go_to_free_ppts_page_iii()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1001233400,
+  "status": "passed"
 });
 formatter.match({
   "location": "pdp_Facebook_Sign_UP_3.user_download_a_free_ppt_iii()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 15334789400,
+  "status": "passed"
 });
 formatter.match({
   "location": "pdp_Facebook_Sign_UP_3.user_delete_the_account_iii()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 49394277100,
+  "status": "passed"
 });
 formatter.uri("src/test/java/Features/e2.2_PDP_Gmail_Sign_UP_5.feature");
 formatter.feature({
@@ -415,56 +418,56 @@ formatter.match({
   "location": "pdp_Gmail_Sign_UP_5.user_is_already_on_pdp_page_v()"
 });
 formatter.result({
-  "duration": 4497830399,
+  "duration": 2890315000,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Gmail_Sign_UP_5.user_click_on_Download_button_to_download_the_product_v()"
 });
 formatter.result({
-  "duration": 4144757600,
+  "duration": 4382297400,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Gmail_Sign_UP_5.user_is_redirected_to_sign_up_page_v()"
 });
 formatter.result({
-  "duration": 5999349100,
+  "duration": 5999843600,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Gmail_Sign_UP_5.user_click_on_sign_in_with_google_button_v()"
 });
 formatter.result({
-  "duration": 42555460001,
+  "duration": 49189375200,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Gmail_Sign_UP_5.user_is_redirected_to_pricing_page_v()"
 });
 formatter.result({
-  "duration": 34701,
+  "duration": 32200,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Gmail_Sign_UP_5.user_go_to_free_ppts_page_v()"
 });
 formatter.result({
-  "duration": 5000694100,
+  "duration": 5000122800,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Gmail_Sign_UP_5.user_download_a_free_ppt_v()"
 });
 formatter.result({
-  "duration": 12682060501,
+  "duration": 12161602000,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Gmail_Sign_UP_5.user_delete_the_account_v()"
 });
 formatter.result({
-  "duration": 67263385401,
+  "duration": 62308471900,
   "status": "passed"
 });
 formatter.uri("src/test/java/Features/g3.1_PDP_Email_Login_Incorrect_Data_Paid_User_7.feature");
@@ -538,63 +541,63 @@ formatter.match({
   "location": "pdp_Email_Login_Incorrect_Data_Paid_User_7.user_is_already_on_PDP_Page_MD_vii()"
 });
 formatter.result({
-  "duration": 5005351800,
+  "duration": 2822922800,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Login_Incorrect_Data_Paid_User_7.user_click_on_Download_button_to_download_the_product_vii()"
 });
 formatter.result({
-  "duration": 4109531400,
+  "duration": 4487774300,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Login_Incorrect_Data_Paid_User_7.user_is_redirected_to_Login_page_vii()"
 });
 formatter.result({
-  "duration": 19300,
+  "duration": 29200,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Login_Incorrect_Data_Paid_User_7.user_enter_incorrect_details_to_login_vii()"
 });
 formatter.result({
-  "duration": 13047415199,
+  "duration": 12579954200,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Login_Incorrect_Data_Paid_User_7.error_message_is_displayed_vii()"
 });
 formatter.result({
-  "duration": 8134237900,
+  "duration": 9436628300,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Login_Incorrect_Data_Paid_User_7.user_login_with_correct_details_vii()"
 });
 formatter.result({
-  "duration": 16270468100,
+  "duration": 14059806300,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Login_Incorrect_Data_Paid_User_7.user_will_be_redirected_to_same_pdp_page_vii()"
 });
 formatter.result({
-  "duration": 2095793200,
+  "duration": 3615532600,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Login_Incorrect_Data_Paid_User_7.user_download_the_product_vii()"
 });
 formatter.result({
-  "duration": 6172551800,
+  "duration": 4408805300,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Login_Incorrect_Data_Paid_User_7.user_logout_from_website_vii()"
 });
 formatter.result({
-  "duration": 13145631700,
+  "duration": 14066436400,
   "status": "passed"
 });
 formatter.uri("src/test/java/Features/h3.2_PDP_Email_Login_Correct_Data_Paid_User_8.feature");
@@ -658,49 +661,49 @@ formatter.match({
   "location": "pdp_Email_Login_Correct_Data_Paid_User_8.user_is_already_on_PDP_Page_MD_viii()"
 });
 formatter.result({
-  "duration": 3710070200,
+  "duration": 3719827600,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Login_Correct_Data_Paid_User_8.user_click_on_Download_button_to_download_the_product_viii()"
 });
 formatter.result({
-  "duration": 4124312100,
+  "duration": 4353929900,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Login_Correct_Data_Paid_User_8.user_is_redirected_to_Login_page_viii()"
 });
 formatter.result({
-  "duration": 20299,
+  "duration": 24700,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Login_Correct_Data_Paid_User_8.user_login_with_correct_details_viii()"
 });
 formatter.result({
-  "duration": 15145493301,
+  "duration": 15427490900,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Login_Correct_Data_Paid_User_8.user_will_be_redirected_to_same_pdp_page_viii()"
 });
 formatter.result({
-  "duration": 32701,
+  "duration": 88100,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Login_Correct_Data_Paid_User_8.user_download_the_product_viii()"
 });
 formatter.result({
-  "duration": 6897372399,
+  "duration": 4801338600,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Login_Correct_Data_Paid_User_8.user_logout_from_website_viii()"
 });
 formatter.result({
-  "duration": 12544677201,
+  "duration": 84321720300,
   "status": "passed"
 });
 formatter.uri("src/test/java/Features/i4.1_PDP_Facebook_Login_Paid_User_9.feature");
@@ -764,49 +767,49 @@ formatter.match({
   "location": "pdp_Facebook_Login_Paid_User_9.user_is_already_on_pdp_page_CD_ix()"
 });
 formatter.result({
-  "duration": 2765599800,
+  "duration": 3004595000,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Facebook_Login_Paid_User_9.user_click_on_Download_button_to_download_the_product_ix()"
 });
 formatter.result({
-  "duration": 4474143200,
+  "duration": 5189957700,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Facebook_Login_Paid_User_9.user_is_redirected_to_Login_page_ix()"
 });
 formatter.result({
-  "duration": 1999520000,
+  "duration": 2005822400,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Facebook_Login_Paid_User_9.user_click_on_sign_in_with_facebook_button_ix()"
 });
 formatter.result({
-  "duration": 23797142900,
+  "duration": 21064510900,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Facebook_Login_Paid_User_9.user_will_be_redirected_to_same_page_pdpd_ix()"
 });
 formatter.result({
-  "duration": 20399,
+  "duration": 407100,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Facebook_Login_Paid_User_9.user_download_the_product_ix()"
 });
 formatter.result({
-  "duration": 4179774900,
+  "duration": 4460810900,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Facebook_Login_Paid_User_9.user_logout_from_website_ix()"
 });
 formatter.result({
-  "duration": 12728142300,
+  "duration": 14122878600,
   "status": "passed"
 });
 formatter.uri("src/test/java/Features/j4.1.1_Facebook_Logout_10.feature");
@@ -840,7 +843,7 @@ formatter.match({
   "location": "pdp_Facebook_Logout_10.navigate_to_the_facebook_url_x()"
 });
 formatter.result({
-  "duration": 19574083600,
+  "duration": 15691629300,
   "status": "passed"
 });
 formatter.uri("src/test/java/Features/k4.2_PDP_Gmail_Login_Paid_User_11.feature");
@@ -904,48 +907,50 @@ formatter.match({
   "location": "pdp_Gmail_Login_Paid_User_11.user_is_already_on_pdp_page_CD_xi()"
 });
 formatter.result({
-  "duration": 1927288800,
+  "duration": 1521036000,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Gmail_Login_Paid_User_11.user_click_on_Download_button_to_download_the_product_xi()"
 });
 formatter.result({
-  "duration": 11189331999,
+  "duration": 6986835300,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Gmail_Login_Paid_User_11.user_is_redirected_to_Login_page_xi()"
 });
 formatter.result({
-  "duration": 27501,
+  "duration": 20900,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Gmail_Login_Paid_User_11.user_click_on_sign_in_with_google_button_xi()"
 });
 formatter.result({
-  "duration": 54721745300,
-  "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: identifierId (tried for 30 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)\r\n\tat SetupClass.TestStep.pdp_Gmail_Login_Paid_User_11.user_click_on_sign_in_with_google_button_xi(pdp_Gmail_Login_Paid_User_11.java:66)\r\n\tat ✽.Then User click on sign in with google button xi(src/test/java/Features/k4.2_PDP_Gmail_Login_Paid_User_11.feature:9)\r\nCaused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: identifierId\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027SLIDE54\u0027, ip: \u0027192.168.100.161\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_211\u0027\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)\r\n\tat java.util.Optional.orElseThrow(Unknown Source)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)\r\n\tat SetupClass.TestStep.pdp_Gmail_Login_Paid_User_11.user_click_on_sign_in_with_google_button_xi(pdp_Gmail_Login_Paid_User_11.java:66)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)\r\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\r\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:300)\r\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\r\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)\r\n",
-  "status": "failed"
+  "duration": 35867288900,
+  "status": "passed"
 });
 formatter.match({
   "location": "pdp_Gmail_Login_Paid_User_11.user_will_be_redirected_to_same_page_pdpd_xi()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3433651000,
+  "status": "passed"
 });
 formatter.match({
   "location": "pdp_Gmail_Login_Paid_User_11.user_download_the_product_xi()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4690135800,
+  "status": "passed"
 });
 formatter.match({
   "location": "pdp_Gmail_Login_Paid_User_11.user_logout_from_website_xi()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 16015506900,
+  "status": "passed"
 });
 formatter.uri("src/test/java/Features/l4.2.1_Gmail_Logout_12.feature");
 formatter.feature({
@@ -978,7 +983,7 @@ formatter.match({
   "location": "pdp_Gmail_Logout_12.navigate_to_the_gmail_url_xii()"
 });
 formatter.result({
-  "duration": 17219664400,
+  "duration": 23600683900,
   "status": "passed"
 });
 formatter.uri("src/test/java/Features/m5.1_PDP_Email_Login_Incorrect_Data_Free_User_13.feature");
@@ -1047,56 +1052,56 @@ formatter.match({
   "location": "pdp_Email_Login_Incorrect_Data_Free_User_13.user_is_already_on_PDP_Page_NA_xiii()"
 });
 formatter.result({
-  "duration": 5413390900,
+  "duration": 3570419500,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Login_Incorrect_Data_Free_User_13.user_click_on_Download_button_to_download_the_product_xiii()"
 });
 formatter.result({
-  "duration": 10103398800,
+  "duration": 5256985800,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Login_Incorrect_Data_Free_User_13.user_is_redirected_to_Login_page_xiii()"
 });
 formatter.result({
-  "duration": 1000406200,
+  "duration": 1000105900,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Login_Incorrect_Data_Free_User_13.user_enter_incorrect_details_to_login_xiii()"
 });
 formatter.result({
-  "duration": 17259372000,
+  "duration": 12608177300,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Login_Incorrect_Data_Free_User_13.error_message_is_displayed_xiii()"
 });
 formatter.result({
-  "duration": 10123845600,
+  "duration": 11613831000,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Login_Incorrect_Data_Free_User_13.user_login_with_correct_details_xiii()"
 });
 formatter.result({
-  "duration": 14328770600,
+  "duration": 14230639700,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Login_Incorrect_Data_Free_User_13.user_is_reedirected_to_pricing_page_xiii()"
 });
 formatter.result({
-  "duration": 999719200,
+  "duration": 1000178400,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Login_Incorrect_Data_Free_User_13.user_logout_from_website_xiii()"
 });
 formatter.result({
-  "duration": 13216767900,
+  "duration": 77584672400,
   "status": "passed"
 });
 formatter.uri("src/test/java/Features/n5.2_PDP_Email_Login_Correct_Data_Free_User_14.feature");
@@ -1155,42 +1160,42 @@ formatter.match({
   "location": "pdp_Email_Login_Correct_Data_Free_User_14.user_is_already_on_PDP_Page_MD_xiv()"
 });
 formatter.result({
-  "duration": 7352605200,
+  "duration": 4759906600,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Login_Correct_Data_Free_User_14.user_click_on_Download_button_to_download_the_product_xiv()"
 });
 formatter.result({
-  "duration": 4126572900,
+  "duration": 4262994400,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Login_Correct_Data_Free_User_14.user_is_redirected_to_Login_page_xiv()"
 });
 formatter.result({
-  "duration": 999820400,
+  "duration": 1000638100,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Login_Correct_Data_Free_User_14.user_login_with_correct_details_xiv()"
 });
 formatter.result({
-  "duration": 14501076000,
+  "duration": 15694530600,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Login_Correct_Data_Free_User_14.user_is_reedirected_to_same_pdp_page_and_download_the_product_xiv()"
 });
 formatter.result({
-  "duration": 5966540400,
+  "duration": 6968417200,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Email_Login_Correct_Data_Free_User_14.user_logout_from_website_xiv()"
 });
 formatter.result({
-  "duration": 13458986500,
+  "duration": 16309876600,
   "status": "passed"
 });
 formatter.uri("src/test/java/Features/o5.3_PDP_Facebook_Login_Paid_User_15.feature");
@@ -1254,49 +1259,49 @@ formatter.match({
   "location": "pdp_Facebook_Login_Paid_User_15.user_is_already_on_pdp_page_FP_xv()"
 });
 formatter.result({
-  "duration": 3971511700,
+  "duration": 2538280100,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Facebook_Login_Paid_User_15.user_click_on_Download_button_to_download_the_product_xv()"
 });
 formatter.result({
-  "duration": 4091527200,
+  "duration": 4374955800,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Facebook_Login_Paid_User_15.user_is_redirected_to_Login_page_xv()"
 });
 formatter.result({
-  "duration": 4500978100,
+  "duration": 4500057800,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Facebook_Login_Paid_User_15.user_click_on_sign_in_with_facebook_button_xv()"
 });
 formatter.result({
-  "duration": 24360164800,
+  "duration": 23392819500,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Facebook_Login_Paid_User_15.user_will_be_redirected_to_same_page_xv()"
 });
 formatter.result({
-  "duration": 1999766200,
+  "duration": 2000276700,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Facebook_Login_Paid_User_15.user_download_the_product_xv()"
 });
 formatter.result({
-  "duration": 10802517100,
+  "duration": 5891274700,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Facebook_Login_Paid_User_15.user_logout_from_website_xv()"
 });
 formatter.result({
-  "duration": 33848865200,
+  "duration": 27892285500,
   "status": "passed"
 });
 formatter.uri("src/test/java/Features/q5.4_PDP_Gmail_Login_Free_User_17.feature");
@@ -1360,49 +1365,49 @@ formatter.match({
   "location": "pdp_Gmail_Login_Free_User_17.user_is_already_on_pdp_page_FP_xvii()"
 });
 formatter.result({
-  "duration": 3907266500,
+  "duration": 3765365400,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Gmail_Login_Free_User_17.user_click_on_Download_button_to_download_the_product_xvii()"
 });
 formatter.result({
-  "duration": 6232697900,
+  "duration": 6267339200,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Gmail_Login_Free_User_17.user_is_redirected_to_Login_page_xvii()"
 });
 formatter.result({
-  "duration": 999447600,
+  "duration": 1000062100,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Gmail_Login_Free_User_17.user_click_on_sign_in_with_google_button_xvii()"
 });
 formatter.result({
-  "duration": 29894992400,
+  "duration": 34400896700,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Gmail_Login_Free_User_17.user_will_be_redirected_to_same_page_xvii()"
 });
 formatter.result({
-  "duration": 1000660800,
+  "duration": 999801100,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Gmail_Login_Free_User_17.user_download_the_product_xvii()"
 });
 formatter.result({
-  "duration": 12188333300,
+  "duration": 4886009100,
   "status": "passed"
 });
 formatter.match({
   "location": "pdp_Gmail_Login_Free_User_17.user_logout_from_website_xvii()"
 });
 formatter.result({
-  "duration": 38271295700,
+  "duration": 32063577200,
   "status": "passed"
 });
 });

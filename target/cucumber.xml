@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="14" time="982.388461">
-<testcase classname="Email Sign UP Incorrect Data" name="Email Sign UP Incorrect Data" time="142.416222">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="14" time="1134.030177">
+<testcase classname="Email Sign UP Incorrect Data" name="Email Sign UP Incorrect Data" time="139.294642">
 <system-out><![CDATA[Given user is already on PDP Page FP i......................................passed
 Then User click on Download button to download the product i................passed
 Then user is redirected to sign up page i...................................passed
@@ -12,7 +12,7 @@ Then user downloads a free product i........................................pass
 Then user delete the account i..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="PDP Email Sign UP Correct Data" name="PDP Email Sign UP Correct Data" time="85.140504">
+<testcase classname="PDP Email Sign UP Correct Data" name="PDP Email Sign UP Correct Data" time="84.227892">
 <system-out><![CDATA[Given user is already on PDP Page FP ii.....................................passed
 Then User click on Download button to download the product ii...............passed
 Then user is redirected to sign up page ii..................................passed
@@ -22,81 +22,18 @@ Then user downloads a free product ii.......................................pass
 Then user delete the account ii.............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="PDP Facebook Sign UP" name="PDP Facebook Sign UP" time="52.787404">
-<failure message="org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: loginbutton (tried for 30 second(s) with 500 milliseconds interval)&#13;&#10;&#9;at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)&#13;&#10;&#9;at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)&#13;&#10;&#9;at SetupClass.TestStep.pdp_Facebook_Sign_UP_3.user_click_on_sign_in_with_facebook_button_iii(pdp_Facebook_Sign_UP_3.java:57)&#13;&#10;&#9;at ✽.Then User click on sign in with facebook button iii(src/test/java/Features/c2.1_PDP_Facebook_Sign_UP_3.feature:8)&#13;&#10;Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: loginbutton&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'&#10;System info: host: 'SLIDE54', ip: '192.168.100.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'&#10;Driver info: driver.version: unknown&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)&#13;&#10;&#9;at java.util.Optional.orElseThrow(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)&#13;&#10;&#9;at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)&#13;&#10;&#9;at SetupClass.TestStep.pdp_Facebook_Sign_UP_3.user_click_on_sign_in_with_facebook_button_iii(pdp_Facebook_Sign_UP_3.java:57)&#13;&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Method.invoke(Unknown Source)&#13;&#10;&#9;at cucumber.runtime.Utils$1.call(Utils.java:40)&#13;&#10;&#9;at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#13;&#10;&#9;at cucumber.runtime.Utils.invoke(Utils.java:34)&#13;&#10;&#9;at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)&#13;&#10;&#9;at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)&#13;&#10;&#9;at cucumber.runtime.Runtime.runStep(Runtime.java:300)&#13;&#10;&#9;at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)&#13;&#10;&#9;at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)&#13;&#10;&#9;at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)&#13;&#10;&#9;at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)&#13;&#10;&#9;at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)&#13;&#10;&#9;at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;&#10;&#9;at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)&#13;&#10;&#9;at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)&#13;&#10;&#9;at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;&#10;&#9;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;&#10;&#9;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;&#10;&#9;at cucumber.api.junit.Cucumber.run(Cucumber.java:100)&#13;&#10;&#9;at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)&#13;&#10;&#9;at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)&#13;&#10;&#9;at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236)&#13;&#10;&#9;at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)&#13;&#10;&#9;at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)&#13;&#10;&#9;at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)&#13;&#10;&#9;at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)&#13;&#10;"><![CDATA[Given user is already on pdp page iii.......................................passed
+<testcase classname="PDP Facebook Sign UP" name="PDP Facebook Sign UP" time="102.983128">
+<system-out><![CDATA[Given user is already on pdp page iii.......................................passed
 Then User click on Download button to download the product iii..............passed
 Then user is redirected to sign up page iii.................................passed
-Then User click on sign in with facebook button iii.........................failed
-Then user is redirected to pricing page iii.................................skipped
-Then user go to free ppts page  iii.........................................skipped
-Then user download a free ppt  iii..........................................skipped
-Then user delete the account iii............................................skipped
-
-StackTrace:
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: loginbutton (tried for 30 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
-	at SetupClass.TestStep.pdp_Facebook_Sign_UP_3.user_click_on_sign_in_with_facebook_button_iii(pdp_Facebook_Sign_UP_3.java:57)
-	at ✽.Then User click on sign in with facebook button iii(src/test/java/Features/c2.1_PDP_Facebook_Sign_UP_3.feature:8)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: loginbutton
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'SLIDE54', ip: '192.168.100.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-	at java.util.Optional.orElseThrow(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-	at SetupClass.TestStep.pdp_Facebook_Sign_UP_3.user_click_on_sign_in_with_facebook_button_iii(pdp_Facebook_Sign_UP_3.java:57)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at cucumber.runtime.Utils$1.call(Utils.java:40)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
-	at cucumber.runtime.Utils.invoke(Utils.java:34)
-	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
-	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-]]></failure>
+Then User click on sign in with facebook button iii.........................passed
+Then user is redirected to pricing page iii.................................passed
+Then user go to free ppts page  iii.........................................passed
+Then user download a free ppt  iii..........................................passed
+Then user delete the account iii............................................passed
+]]></system-out>
 </testcase>
-<testcase classname="PDP Gmail Sign UP" name="PDP Gmail Sign UP" time="142.143572">
+<testcase classname="PDP Gmail Sign UP" name="PDP Gmail Sign UP" time="141.93206">
 <system-out><![CDATA[Given user is already on pdp page v.........................................passed
 Then User click on Download button to download the product v................passed
 Then user is redirected to sign up page v...................................passed
@@ -107,7 +44,7 @@ Then user download a free ppt v.............................................pass
 Then user delete the account v..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="PDP Email Login Incorrect Data Paid User" name="PDP Email Login Incorrect Data Paid User" time="67.981">
+<testcase classname="PDP Email Login Incorrect Data Paid User" name="PDP Email Login Incorrect Data Paid User" time="65.477889">
 <system-out><![CDATA[Given user is already on PDP Page MD vii....................................passed
 Then User click on Download button to download the product vii..............passed
 Then user is redirected to Login page vii...................................passed
@@ -119,7 +56,7 @@ Then user download the product vii..........................................pass
 Then user logout from website vii...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="PDP Email Login Correct Data Paid User" name="PDP Email Login Correct Data Paid User" time="42.421978">
+<testcase classname="PDP Email Login Correct Data Paid User" name="PDP Email Login Correct Data Paid User" time="112.62442">
 <system-out><![CDATA[Given user is already on PDP Page MD viii...................................passed
 Then User click on Download button to download the product viii.............passed
 Then user is redirected to Login page viii..................................passed
@@ -129,7 +66,7 @@ Then user download the product viii.........................................pass
 Then user logout from website viii..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="PDP Facebook Login Paid User" name="PDP Facebook Login Paid User" time="49.944343">
+<testcase classname="PDP Facebook Login Paid User" name="PDP Facebook Login Paid User" time="49.848983">
 <system-out><![CDATA[Given user is already on pdp page CD ix.....................................passed
 Then User click on Download button to download the product ix...............passed
 Then user is redirected to Login page ix....................................passed
@@ -139,88 +76,25 @@ Then user download the product ix...........................................pass
 Then user logout from website ix............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Facebook Logout" name="Facebook Logout" time="19.574084">
+<testcase classname="Facebook Logout" name="Facebook Logout" time="15.691629">
 <system-out><![CDATA[Given navigate to the facebook url x........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="PDP Gmail Login Paid User" name="PDP Gmail Login Paid User" time="67.838394">
-<failure message="org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: identifierId (tried for 30 second(s) with 500 milliseconds interval)&#13;&#10;&#9;at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)&#13;&#10;&#9;at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)&#13;&#10;&#9;at SetupClass.TestStep.pdp_Gmail_Login_Paid_User_11.user_click_on_sign_in_with_google_button_xi(pdp_Gmail_Login_Paid_User_11.java:66)&#13;&#10;&#9;at ✽.Then User click on sign in with google button xi(src/test/java/Features/k4.2_PDP_Gmail_Login_Paid_User_11.feature:9)&#13;&#10;Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: identifierId&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'&#10;System info: host: 'SLIDE54', ip: '192.168.100.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'&#10;Driver info: driver.version: unknown&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)&#13;&#10;&#9;at java.util.Optional.orElseThrow(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)&#13;&#10;&#9;at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)&#13;&#10;&#9;at SetupClass.TestStep.pdp_Gmail_Login_Paid_User_11.user_click_on_sign_in_with_google_button_xi(pdp_Gmail_Login_Paid_User_11.java:66)&#13;&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Method.invoke(Unknown Source)&#13;&#10;&#9;at cucumber.runtime.Utils$1.call(Utils.java:40)&#13;&#10;&#9;at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#13;&#10;&#9;at cucumber.runtime.Utils.invoke(Utils.java:34)&#13;&#10;&#9;at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)&#13;&#10;&#9;at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)&#13;&#10;&#9;at cucumber.runtime.Runtime.runStep(Runtime.java:300)&#13;&#10;&#9;at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)&#13;&#10;&#9;at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)&#13;&#10;&#9;at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)&#13;&#10;&#9;at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)&#13;&#10;&#9;at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)&#13;&#10;&#9;at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;&#10;&#9;at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)&#13;&#10;&#9;at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)&#13;&#10;&#9;at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;&#10;&#9;at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;&#10;&#9;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;&#10;&#9;at cucumber.api.junit.Cucumber.run(Cucumber.java:100)&#13;&#10;&#9;at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)&#13;&#10;&#9;at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)&#13;&#10;&#9;at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236)&#13;&#10;&#9;at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)&#13;&#10;&#9;at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)&#13;&#10;&#9;at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)&#13;&#10;&#9;at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)&#13;&#10;"><![CDATA[Given user is already on pdp page CD xi.....................................passed
+<testcase classname="PDP Gmail Login Paid User" name="PDP Gmail Login Paid User" time="68.514475">
+<system-out><![CDATA[Given user is already on pdp page CD xi.....................................passed
 Then User click on Download button to download the product xi...............passed
 Then user is redirected to Login page xi....................................passed
-Then User click on sign in with google button xi............................failed
-Then user will be redirected to same page pdpd xi...........................skipped
-Then user download the product xi...........................................skipped
-Then user logout from website xi............................................skipped
-
-StackTrace:
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: identifierId (tried for 30 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
-	at SetupClass.TestStep.pdp_Gmail_Login_Paid_User_11.user_click_on_sign_in_with_google_button_xi(pdp_Gmail_Login_Paid_User_11.java:66)
-	at ✽.Then User click on sign in with google button xi(src/test/java/Features/k4.2_PDP_Gmail_Login_Paid_User_11.feature:9)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: identifierId
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'SLIDE54', ip: '192.168.100.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-	at java.util.Optional.orElseThrow(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-	at SetupClass.TestStep.pdp_Gmail_Login_Paid_User_11.user_click_on_sign_in_with_google_button_xi(pdp_Gmail_Login_Paid_User_11.java:66)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at cucumber.runtime.Utils$1.call(Utils.java:40)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
-	at cucumber.runtime.Utils.invoke(Utils.java:34)
-	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
-	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-]]></failure>
+Then User click on sign in with google button xi............................passed
+Then user will be redirected to same page pdpd xi...........................passed
+Then user download the product xi...........................................passed
+Then user logout from website xi............................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Gmail Logout" name="Gmail Logout" time="17.219664">
+<testcase classname="Gmail Logout" name="Gmail Logout" time="23.600684">
 <system-out><![CDATA[Given navigate to the gmail url xii.........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="PDP Email Login Incorrect Data Free User" name="PDP Email Login Incorrect Data Free User" time="72.445671">
+<testcase classname="PDP Email Login Incorrect Data Free User" name="PDP Email Login Incorrect Data Free User" time="126.86501">
 <system-out><![CDATA[Given user is already on PDP Page NA xiii...................................passed
 Then User click on Download button to download the product xiii.............passed
 Then user is redirected to Login page xiii..................................passed
@@ -231,7 +105,7 @@ Then user is reedirected to pricing page xiii...............................pass
 Then user logout from website xiii..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="PDP Email Login Correct Data Free User" name="PDP Email Login Correct Data Free User" time="46.405601">
+<testcase classname="PDP Email Login Correct Data Free User" name="PDP Email Login Correct Data Free User" time="48.996364">
 <system-out><![CDATA[Given user is already on PDP Page MD xiv....................................passed
 Then User click on Download button to download the product xiv..............passed
 Then user is redirected to Login page xiv...................................passed
@@ -240,7 +114,7 @@ Then user is reedirected to same pdp page and download the product xiv......pass
 Then user logout from website xiv...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="PDP Facebook Login Free User" name="PDP Facebook Login Free User" time="83.57533">
+<testcase classname="PDP Facebook Login Free User" name="PDP Facebook Login Free User" time="70.58995">
 <system-out><![CDATA[Given user is already on pdp page FP xv.....................................passed
 Then User click on Download button to download the product xv...............passed
 Then user is redirected to Login page xv....................................passed
@@ -250,7 +124,7 @@ Then user download the product xv...........................................pass
 Then user logout from website xv............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="PDP Gmail Login Free User" name="PDP Gmail Login Free User" time="92.494694">
+<testcase classname="PDP Gmail Login Free User" name="PDP Gmail Login Free User" time="83.383051">
 <system-out><![CDATA[Given user is already on pdp page FP xvii...................................passed
 Then User click on Download button to download the product xvii.............passed
 Then user is redirected to Login page xvii..................................passed

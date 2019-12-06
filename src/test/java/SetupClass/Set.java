@@ -53,6 +53,8 @@ public class Set {
 		else if ((local_FFbrowser.equals("yes"))) {
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
+			driver.manage().window().maximize();
+			Thread.sleep(1000);
 
 			Thread.sleep(1000);
 		} else {
